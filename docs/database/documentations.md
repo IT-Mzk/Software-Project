@@ -1,8 +1,8 @@
-# Database Documentation <!-- omit from toc -->
+# Database Documentation 
 
 This document holds a overview of the database structure such as tables, columns, constraints, and any other relevant information related to the database.
 
-## Table of Contents <!-- omit from toc -->
+## Table of Contents 
 - [Tables](#tables)
   - [User](#user)
   - [Photos](#photos)
@@ -23,7 +23,7 @@ This table stores user account information.
 - `password`: User's hashed password
 - `slug`: A url safe string
 
-### Indexes <!-- omit from toc -->
+### Indexes 
 
 Indexes belonging to the `user` table.
 
@@ -43,7 +43,7 @@ This table stores information about the uploaded images **Does not include image
 - `upload_date`: The date when the image was uploaded
 - `user`: **Foreign Key** that references `user.id`
 
-### Indexes <!-- omit from toc -->
+### Indexes 
 
 Indexes belonging to the `photos` table.
 
@@ -62,7 +62,7 @@ This table stores information about albums.
 - `creation_date`: The date and time of when the album was created
 - `user`: **Foreign Key** that references `user.id`
 
-### Indexes <!-- omit from toc -->
+### Indexes 
 
 Indexes belonging to the `album` table.
 
@@ -81,7 +81,7 @@ This table stores information about images that belong to a album.
 - `album`: **Foreign Key** references `album.id`
 - `user`: **Foreign Key** references `user.id`
 
-### Indexes <!-- omit from toc -->
+### Indexes 
 
 Indexes belonging to the `albumimage` table.
 
