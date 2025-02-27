@@ -66,7 +66,4 @@ python manage.py runserver
 
 8. In your web browser go to `http://localhost:8000`
 
-9. Browse the front facing features by clicking on the links in the navigation bar.
-
-10. Visit the admin panel at `http://localhost/admin`, login with the credentials you used when creating the superuser.
 
