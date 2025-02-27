@@ -1,6 +1,6 @@
-# Photo Share <!-- omit from toc -->
+# Photo Share 
 
-## Table of Contents <!-- omit from toc -->
+## Table of Contents 
 - [Features](#features)
 - [Installation and Setup](#installation-and-setup)
 
@@ -52,18 +52,12 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-6. Create a superuser for admin access
-
-```shell
-python manage.py createsuperuser
-```
-
-7. Run the development server
+6. Run the development server
 
 ```shell
 python manage.py runserver
 ```
 
-8. In your web browser go to `http://localhost:8000`
+7. In your web browser go to `http://localhost:8000`
 
 
