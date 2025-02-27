@@ -12,7 +12,7 @@
 
 ## Installation and Setup
 
-Fallow these instructions to setup the project locally on your machine.
+Follow these instructions to setup the project locally on your machine.
 
 1. Clone the repo
 
