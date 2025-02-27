@@ -1,11 +1,8 @@
 # Photo Share <!-- omit from toc -->
 
-Photo Share is a web application built with Django that allows users to upload, share, and explore photos. This README file provides an overview of the project, how to set it up, and basic usage instructions.
-
 ## Table of Contents <!-- omit from toc -->
 - [Features](#features)
 - [Installation and Setup](#installation-and-setup)
-- [Testing](#testing)
 
 ## Features
 - User registration and authentication
@@ -20,7 +17,7 @@ Fallow these instructions to setup the project locally on your machine.
 1. Clone the repo
 
 ```shell
-git clone https://github.com/ManuelDelarosa1204/Photo-Share.git
+git clone https://github.com/IT-Mzk/Software-Project.git
 ```
 
 2. Create a virtual environment
@@ -40,7 +37,7 @@ python -m venv venv
     2. Windows
 
     ```shell
-    venv/Scripts/activate.bat
+    .\venv\Scripts\Activate
     ```
 
 4. Install required packages
@@ -73,24 +70,3 @@ python manage.py runserver
 
 10. Visit the admin panel at `http://localhost/admin`, login with the credentials you used when creating the superuser.
 
-
-## Testing
-
-To run the test that are provided with the application you can run `pytest` in the root directory.
-
-Run all test found in the project:
-```shell
-pytest
-```
-
-To run a specific test you can run the command `pytest <directory>`, `pytest <directory>/<file>.py`. 
-
-Run a test for a specific directory:
-```shell
-pytest user/
-```
-
-Run a test for a specific file in a directory:
-```shell
-pytest user/tests/test_models.py
-```
