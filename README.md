@@ -51,13 +51,18 @@ pip install -r requirements.txt
 ```shell
 python manage.py migrate
 ```
+6. Create a superuser for admin access
 
-6. Run the development server
+```shell
+python manage.py createsuperuser
+```
+
+7. Run the development server
 
 ```shell
 python manage.py runserver
 ```
 
-7. In your web browser go to `http://localhost:8000`
+8. In your web browser go to `http://localhost:8000`
 
 
